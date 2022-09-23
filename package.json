@@ -1,5 +1,5 @@
 {
-  "name": "e-commerce-tcs",
+  "name": "rabinsxp-ecommerce-v9",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DivuMarcus/EcommerceTCS.git"
+    "url": "git+https://github.com/rabinsxp/ecommerceV9.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DivuMarcus/EcommerceTCS/issues"
+    "url": "https://github.com/rabinsxp/ecommerceV9/issues"
   },
-  "homepage": "https://github.com/DivuMarcus/EcommerceTCS#readme",
+  "homepage": "https://github.com/rabinsxp/ecommerceV9#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "bcrypt-nodejs": "0.0.3",

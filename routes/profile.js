@@ -1,7 +1,7 @@
 var router = require('express').Router();
 var UserDetails = require('../models/userdetails');
 var mongoose = require('mongoose');
-var url = "mongodb+srv:tcs-ecommerce:ecommerce123@ecommerce-tcs-qqgie.mongodb.net/test?retryWrites=true&w=majority";
+var url = "mongodb+srv:hostingsewa-ecommerce:HostingSewaPass@123@hostingsewa-db.mongodb.net/test?retryWrites=true&w=majority";
 
 router.get('/', function (req, res) {
   if (req.session.user == undefined) {

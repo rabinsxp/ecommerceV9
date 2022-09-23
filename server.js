@@ -9,9 +9,9 @@ var ejs_mate = require('ejs-mate');
 
 var app = express();
 
-var password = 'ecommerce123';
+var password = 'HostingSewaPass@123';
 
-mongoose.connect('mongodb+srv://tcs-ecommerce:' + password + '@ecommerce-tcs-qqgie.mongodb.net/test?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://hostingsewa-ecommerce:' + password + '@hostingsewa-db.mongodb.net/test?retryWrites=true&w=majority',{
   useNewUrlParser:true,
   useCreateIndex:true,
   useUnifiedTopology: true

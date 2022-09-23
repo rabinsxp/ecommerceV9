@@ -4,7 +4,6 @@ var mongoose = require('mongoose');
 var User = require('../models/user');
 var UserDetails = require('../models/userdetails');
 
-
 router.get('/', function (req, res) {
   res.render('main/signup');
 });

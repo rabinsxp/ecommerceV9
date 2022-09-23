@@ -4,9 +4,9 @@ var ejs = require('ejs');
 var ejsMate = require('ejs-mate');
  
   
-var password = 'ecommerce123';
+var password = 'HostingSewaPass@123';
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://tcs-ecommerce:'+ password +'@ecommerce-tcs-qqgie.mongodb.net/test?retryWrites=true&w=majority'); 
+mongoose.connect('mongodb+srv://hostingsewa-ecommerce:'+ password +'@hostingsewa-db.mongodb.net/test?retryWrites=true&w=majority'); 
 var db=mongoose.connection; 
 db.on('error', console.log.bind(console, "connection error")); 
 db.once('open', function(callback){ 
@@ -78,6 +78,3 @@ return res.redirect('index');
   
   
 console.log("server listening at port 3000"); 
-
-
-
